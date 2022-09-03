@@ -52,6 +52,7 @@ public class Frame extends JFrame implements MouseInputListener {
                 setState(java.awt.Frame.NORMAL);
             }
         });
+        setIconImage(new ImageIcon("SySLogo.png").getImage());
         addMouseListener(this);
         addMouseMotionListener(this);
     }
